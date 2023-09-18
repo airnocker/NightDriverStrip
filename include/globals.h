@@ -233,7 +233,7 @@ extern RemoteDebug Debug;           // Let everyone in the project know about it
 //
 // I've used this code to build a dozen different projects, most of which can be created by defining
 // the right built environment (like INSULATORS=1).  The config here defines everything about the
-// LEDs, how many, on how many channels, laid out into how many fang/rings, and so on.  You can also
+// LEDs, how many, on how many channels, laid out into how many fans/rings, and so on.  You can also
 // specify the audio system config like how many band channels.
 
 #if DEMO

@@ -327,7 +327,7 @@ Rather than produce a complex set of guidelines, here's what I hope open-source 
 
 Let's consider the inconsistent naming, which should be fixed. Some is camelCase, some is pszHungarian, and so on, depending on the source. I'd prefer it were all updated to a single standard TBD. Until the TBD is determined, I lean towards [the Win32 standard](https://docs.microsoft.com/en-us/windows/win32/stg/coding-style-conventions?redirectedfrom=MSDN).
 
-When working in a function, work in the style of the function. When working on a class, work in the style of the class. When working on a file, work in the style of the file. If those are inconsistent, do whatever minimizes changes. Stylistic changes should only be introduced after discussion in the group, and generally should entain owning that style change across the entire project.
+When working in a function, work in the style of the function. When working on a class, work in the style of the class. When working on a file, work in the style of the file. If those are inconsistent, do whatever minimizes changes. Stylistic changes should only be introduced after discussion in the group, and generally should entail owning that style change across the entire project.
 
 Next, let's consider `#define`s to control the build. There may be better and more elegant ways of doing things. There could be entire configuration platforms. But I'd prefer to keep it simple. And I define simplest to be "the least that an experienced C++ programmer needs to learn before being constructive with the code in question". I don't want to learn a new class library if I can avoid it!
 
